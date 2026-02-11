@@ -1,27 +1,24 @@
-# Vara 🧥 | AI-Powered Smart Wardrobe
+# Vara 🧥 | Intelligent Wardrobe Orchestrator
 
-**Vara** is an intelligent wardrobe assistant designed to bridge the gap between your physical closet and digital style planning. Built during a high-intensity 24-hour sprint, Vara uses Google's latest Generative AI to analyze clothing items and categorize them for effortless daily styling.
+**Vara** is a sophisticated wardrobe management platform that leverages advanced computer vision to digitize your closet. By transforming physical garments into structured data, Vara enables users to curate their style with analytical precision.
 
-## 🚀 The Vision
-Vara isn't just a closet tracker; it's a style engine. By analyzing the warmth, color palette, and occasion of every garment, Vara helps users maximize their wardrobe while minimizing "choice paralysis."
+## 🌟 Overview
+Vara was developed to solve the "static closet" problem. Most digital wardrobes require manual data entry; Vara automates this process using Multimodal LLMs to perceive texture, color, and thermal utility from a single image.
 
-## 🧠 Technical Highlights
-* **Gemini AI Integration**: Leveraged a direct REST API implementation to bypass SDK versioning issues, ensuring stable 2.0/3.0 model communication.
-* **Next.js 15 & React**: Utilized a modern App Router architecture for seamless performance and efficient server-side processing.
-* **Multimodal Analysis**: Automatically extracts warmth scores (1-10), color families, and occasion metadata from a single photograph.
-* **Mobile-First Environment**: Developed with a focus on cross-origin mobile testing and responsive UI components.
+## 🧠 Core Architecture
+* **Direct API Integration**: Implemented a robust RESTful interface to communicate with Google's Generative AI, ensuring high-availability and bypassing standard SDK limitations.
+* **Next.js App Router**: Utilized the latest React framework features for optimized server-side rendering and efficient data fetching.
+* **Intelligent Taxonomy**: Developed a custom tagging engine that classifies items based on warmth scores (1-10), color theory palettes, and situational appropriateness.
+* **Mobile-First Synchronization**: Engineered for cross-device compatibility, allowing users to catalog items seamlessly via mobile camera or desktop uploads.
 
-## 🛠️ Tech Stack
-- **Framework**: Next.js (App Router)
-- **AI**: Google Gemini API (Flash 1.5/3.0)
-- **Styling**: Tailwind CSS & Lucide Icons
-- **Language**: TypeScript
+## 🛠️ Technical Stack
+- **Framework**: Next.js 15 (TypeScript)
+- **AI Engine**: Google Gemini Multimodal Vision
+- **Styling**: Tailwind CSS & Lucide React
+- **Infrastructure**: Vercel & GitHub Actions (CI/CD)
 
-## 📈 Roadmap (24-Hour Sprint)
-- [x] **Phase 1: Infrastructure & API Handshake** - Overcoming 404/429 errors and establishing clean REST communication.
-- [x] **Phase 2: Multimodal AI Analysis Logic** - Real-time clothing tagging via image processing.
-- [ ] **Phase 3: Persistent Digital Closet** - Saving analyzed items to local storage/database.
-- [ ] **Phase 4: Weather-Based Outfit Recommendations** - The "Vara" style engine.
-
----
-*Developed as a portfolio-star project, demonstrating rapid full-stack integration and real-world problem solving.*
+## 🗺️ Development Roadmap
+- [x] **System Architecture**: Established secure API handshaking and environment variable management.
+- [x] **AI Vision Logic**: Fine-tuned prompt engineering for consistent JSON-structured metadata output.
+- [ ] **Data Persistence Layer**: Integration of localized or cloud-based storage for long-term closet management.
+- [ ] **Recommendation Engine**: Predictive outfit suggestions based on item metadata and external environmental factors.
